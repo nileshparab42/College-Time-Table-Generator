@@ -112,8 +112,6 @@ for i in range(0,6):
                         te_tt[j][i].append(teachers[z][0])
                         break
                             
-                            
-                     
 
 # ARRANGING BE TIMETABLE
 for i in range(0,6):
@@ -145,17 +143,7 @@ for i in range(0,6):
                         be_tt[j][i].append(teachers[z][10])
                         be_tt[j][i].append(teachers[z][0])
                         break
-
- 
-                            
-                            
-
-
-                
-
-
-
-            
+           
 
 # SHUFFLE TEACHER LIST
 random.shuffle(teachers)
